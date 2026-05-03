@@ -180,7 +180,7 @@ def status_bot():
 
 Разработчик скрипта: <i>@endurra</i>
 
-Настроил: <U><i>@yarik3gp</i><U>
+Настроил: <i>@yarik3gp</i>
             ''', parse_mode='HTML')
 
     @bot.message_handler(commands=['send'])
