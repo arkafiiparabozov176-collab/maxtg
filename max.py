@@ -6,6 +6,14 @@ import time
 from uuid import uuid4
 from classes import *
 from errors import *
+from websockets.sync.client import connect
+from websockets.exceptions import ConnectionClosedError, ConcurrencyError, ConnectionClosed
+import json
+import threading
+import time
+from uuid import uuid4
+from classes import *
+from errors import *
 from datetime import datetime
 from pprint import pprint
 
