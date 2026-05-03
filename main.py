@@ -178,9 +178,9 @@ def status_bot():
 Чтобы увидеть список команд,
 введите /com
 
-Разработчик текущей версии: <i>@endurra</i>
+Разработчик скрипта: <i>@endurra</i>
 
-Процесс разработки и полезная информация: <i>@codebykrais</i>
+Настроил: <i>@yarikorg</i>
             ''', parse_mode='HTML')
 
     @bot.message_handler(commands=['send'])
