@@ -167,7 +167,7 @@ def status_bot():
     @bot.message_handler(commands=['start'])
     @errorHandler
     def start(message):
-        bot.send_message(message.chat.id, '''<b>MAX RESENDER BY KRAIS</b>
+        bot.send_message(message.chat.id, '''<b>Anti MAX</b>
 
 Бот, пересылающий сообщения из мессенджера MAX в телеграм
 
@@ -180,7 +180,7 @@ def status_bot():
 
 Разработчик скрипта: <i>@endurra</i>
 
-Настроил: <i>@yarik3gp</i>
+Настроил: <U><i>@yarik3gp</i><U>
             ''', parse_mode='HTML')
 
     @bot.message_handler(commands=['send'])
